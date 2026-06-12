@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Daily Update Page</title>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			max-width: 900px;
+			margin: 40px auto;
+			padding: 20px;
+			line-height: 1.5;
+		}
+
+		.item {
+			border-bottom: 1px solid #ddd;
+			padding: 24px 0;
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+			border-radius: 8px;
+			display: block;
+			margin-top: 12px;
+		}
+
+		.muted {
+			color: #666;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Daily Updates</h1>
+	<div id="content" class="muted">Loading updates...</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
